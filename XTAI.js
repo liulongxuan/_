@@ -36,25 +36,3 @@ DG = {
 $done({
     'body': JSON['stringify'](DG)
 });;
-(function(_0x1ee600, _0x3901d0, _0x1e4d4b) {
-    var _0x40b7ad = {
-        'KszNV': 'ert',
-        'zfeDZ': 'undefined',
-        'CJHTr': function _0x5d8e52(_0x5f4287, _0x29ba5c) {
-            return _0x5f4287 === _0x29ba5c;
-        },
-        'LzNDa': 'jsjiami.com.v5',
-        'anNYL': '删除版本号，js会定期弹窗'
-    };
-    _0x1e4d4b = 'al';
-    try {
-        _0x1e4d4b += _0x40b7ad['KszNV'];
-        _0x3901d0 = encode_version;
-        if (!(typeof _0x3901d0 !== _0x40b7ad['zfeDZ'] && _0x40b7ad['CJHTr'](_0x3901d0, _0x40b7ad['LzNDa']))) {
-            _0x1ee600[_0x1e4d4b]('删除' + '版本号，js会定期弹窗，还请支持我们的工作');
-        }
-    } catch (_0x5ce614) {
-        _0x1ee600[_0x1e4d4b](_0x40b7ad['anNYL']);
-    }
-}(window));;
-encode_version = 'jsjiami.com.v5';
