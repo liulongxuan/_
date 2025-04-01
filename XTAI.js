@@ -3,7 +3,7 @@
 
 [rewrite_local] 
 
-^https?:\/\/xuantu\.pro\/user\/getUserInfo url script-response-body https://raw.githubusercontent.com/liulongxuan/_/blob/main/XTAI.js
+^https?:\/\/xuantu\.pro\/user\/getUserInfo url script-response-body https://raw.githubusercontent.com/liulongxuan/_/refs/heads/main/XTAI.js
 
 [MITM]
 hostname = xuantu.pro
