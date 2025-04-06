@@ -2,7 +2,7 @@
 # @ pxx917144686
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/pxx917144686/QuantumultX-Loon-Surge-Stash-Shadowrocket/refs/heads/master/rewrite/QuantumultX/itunes_pxx.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/liulongxuan/_/refs/heads/main/xq.js
 [mitm]
 hostname = buy.itunes.apple.com
 
