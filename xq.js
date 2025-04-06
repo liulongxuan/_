@@ -3,35 +3,28 @@
 
 [rewrite_local] 
 
-^https?:\/\/xuantu\.pro\/user\/getUserInfo url script-response-body https://raw.githubusercontent.com/liulongxuan/_/refs/heads/main/XTAI.js
+^https?:\/\/wedobest\.xiangqi\/user\/getUserInfo url script-response-body https://raw.githubusercontent.com/liulongxuan/_/refs/heads/main/xq.js
 
 [MITM]
-hostname = xuantu.pro
+hostname = wedobest.xiangqi
 
 
  */
  
 var DG = JSON['parse']($response['body']);
 DG = {
-   "code" : 0,
-  "data" : {
-    "productId" : "lifetime_membership",
-    "vip_create_at" : 1743476496,
-    "outer_id" : "G6d1e2609139",
-    "phone" : "",
-    "register_at" : "2025-04-01 10:43:00",
-    "vip_expired_days" : "9999999999",
-    "nick_name" : "Luvian",
-    "user_id" : 9999999,
-    "is_benefit" : 9,
-    "avatar" : "https://lh3.googleusercontent.com/a/ACg8ocJ8irmJiPIIOghsj610zK2GGt4N_C5sVvkBLg9yRBPS9ulmiw=s96-c",
-    "vip_expired_at" : "9999-09-09 00:00:00",
-    "vip_renewal_at" : "9999-09-09 00:00:00",
-    "nickname" : "Luvian",
-    "is_vip" : 1
-  },
-  "message" : "成功",
-  "currentTime" : "2025-04-01 10:46:58"
+   "force_stop_single_live_process" : true,  
+"allow_favorite" : true,
+"allow_share" : true,
+"allow_ka_feature" : true,
+"allow_open_live_data_scope" : true,
+"allow_silence_empower" : true,
+"allow_comment" : true,
+"enable_feed_no_ad" : true,
+"live_download_flag" : 1,
+"allow_auto_play" : true,
+"use_pangle_plugin" : true,
+"enable_keva" : true
 };
 $done({
     'body': JSON['stringify'](DG)
