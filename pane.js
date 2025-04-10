@@ -19,9 +19,7 @@ DG = {
     "purchase_date" : "2024-05-08 01:00:25",
     "purchase_date_ms" : "1715130025000",
     "purchase_date_pst" : "2024-05-07 18:00:25",
-    "user_id" : 9999999,
-    "is_benefit" : 9,
-
+   
   },
   "message" : "成功",
   "currentTime" : "2025-04-01 10:46:58"
